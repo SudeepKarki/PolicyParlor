@@ -1,6 +1,7 @@
 import banner from "@/public/images/banner.png";
 import BannerSearch from "../BannerSearch";
 
+
 function Banner() {
   return (
     <div

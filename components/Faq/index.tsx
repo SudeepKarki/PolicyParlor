@@ -72,8 +72,8 @@ function Faq() {
             ))}
           </div>
           <div className="bg-gray-50 p-8 rounded">
-            <h3 className="text-2xl font-medium text-gray-800 mb-4">
-              Does this help in your economy growth?
+            <h3 className="text-4xl  text-gray-800 mb-4">
+              Does this help in your <br /> economy growth?
             </h3>
             <p className="text-gray-600 mb-6">
               The Company was a wholly owned subsidiary of The Oriental
