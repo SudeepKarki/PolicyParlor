@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 function Faq() {
@@ -80,9 +81,11 @@ function Faq() {
               Government Security Life Assurance Company Ltd. adasij ddioasd
               adiasdsad jsdisd siddsio
             </p>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full transition duration-300">
-              Contact Us
-            </button>
+            <Link href="/contact">
+              <button className="bg-green-500 text-white py-3 px-6 rounded-full">
+                Contact Us
+              </button>
+            </Link>
           </div>
         </div>
 

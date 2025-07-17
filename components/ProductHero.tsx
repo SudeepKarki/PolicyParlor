@@ -1,5 +1,7 @@
-import { ArrowRight } from "lucide-react";
+"use client";
+import { ArrowRight, TimerIcon } from "lucide-react";
 import Faq from "./Faq";
+import Link from "next/link";
 
 const ProductHero = () => {
   return (
@@ -58,9 +60,11 @@ const ProductHero = () => {
             safeguarding your present, we are here to guide you every step of
             the way.
           </p>
-          <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-full transition duration-300">
-            Join Us
-          </button>
+          <Link href="/contact">
+            <button className="bg-green-500 text-white py-3 px-6 rounded-full">
+              Join Us
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -131,11 +135,7 @@ const ProductHero = () => {
                   key={i}
                   className="w-[calc(100%/3.5)] bg-gray-100 p-6 rounded-2xl flex-shrink-0 hover:shadow-md transition duration-300"
                 >
-                  <img
-                    src="/icons/heart-icon.svg"
-                    alt="icon"
-                    className="w-10 h-10 mb-4"
-                  />
+                  <TimerIcon className="mb-4" />
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">
                     Our Products Are
                   </h3>

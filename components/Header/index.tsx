@@ -12,8 +12,8 @@ function Header() {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "Product", href: "/product" },
-    { name: "Support", href: "/support" },
-    { name: "Blog", href: "/blog" },
+    { name: "About Us", href: "/about" },
+    { name: "Contact Us", href: "/contact" },
   ];
   return (
     <nav className="flex justify-between items-center py-4 px-6">
