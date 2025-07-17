@@ -64,15 +64,15 @@ export default function Contact() {
           className="w-full ml-20 mr-20  flex flex-col md:flex-row"
         >
           {/* Left Green Panel */}
-          <div className="bg-green-500 text-white w-full md:w-1/2 p-10 m-20 h-150 space-y-14 relative rounded-xl mb-10">
-            <div className="leading-14 py-6">
+          <div className="bg-green-500 text-white w-full md:w-1/2  h-170 space-y-14 relative rounded-xl mb-10">
+            <div className="leading-14 m-10 py-6 px-6 ">
               <h2 className="text-4xl font-bold mb-1">Contact Information</h2>
               <p className="text-gray-300 text-base">
                 Say something to start a live chat!
               </p>
             </div>
-            <div className="space-y-4 text-base">
-              <div className="flex items-center space-x-2">
+            <div className="space-y-8 text-base px-10">
+              <div className="flex items-center space-x-2 ">
                 <Phone />
                 <span>+1012 3456 789</span>
               </div>
@@ -87,7 +87,7 @@ export default function Contact() {
                 </span>
               </div>
             </div>
-            <div className="flex gap-6 text-xl mt-50">
+            <div className="flex gap-6 text-xl mt-60 px-16">
               <Facebook className="rounded-[50%] bg-gray-900 h-9 w-9 p-2" />
               <Instagram className="rounded-[50%] bg-gray-900 h-9 w-9 p-2" />
               <Twitter className="rounded-[50%] bg-gray-900 h-9 w-9 p-2" />
@@ -98,7 +98,7 @@ export default function Contact() {
           </div>
 
           {/* Right Form Panel */}
-          <div className="w-full md:w-1/2 p-8 space-y-6">
+          <div className="w-full md:w-1/2 p-8 space-y-8 ml-8">
             <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
               <div className="w-full">
                 <label className="block text-base text-gray-600 mb-1">
